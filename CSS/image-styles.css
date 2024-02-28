@@ -1,0 +1,182 @@
+/* Bannerdagi rasmlar uchun style kodlari... */
+
+.banner-title::after {
+    content: url(../assets/images/title-controller-image.png);
+    position: absolute;
+    transform: translateY(-18px) translateX(10px);
+}
+
+.enjoy {
+    transform: translateY(-75px) translateX(294px);
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 815px;
+    width: 100%;
+    height: 630px;
+}
+
+.purple-round {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+
+.purple-background {
+    width: 420px;
+    position: absolute;
+    left: 110px;
+    top: 140px;
+}
+
+.gamer-image {
+    position: absolute;
+    z-index: 4;
+    height: 500px;
+    left: 100px;
+    top: 120px;
+}
+
+.bat-image {
+    position: absolute;
+    right: 70px;
+    top: 130px;
+}
+
+.achievement-image {
+    position: absolute;
+    left: 70px;
+    bottom: 140px;
+}
+
+.w-a-s-d-image {
+    position: absolute;
+    left: 130px;
+    top: 160px;
+}
+
+.controller-image {
+    position: absolute;
+    right: 80px;
+    bottom: 130px;
+}
+
+/* Robots bo'limidagi rasmlar uchun style kodlari */
+
+.robots-image-wrapper {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    height: 570px;
+}
+
+.controller-on-arm {
+    position: absolute;
+    left: 165px;
+}
+
+.gamer-girl-image {
+    position: absolute;
+    left: 120px;
+    top: 130px;
+}
+
+.robots-dots-img {
+    position: absolute;
+    left: 70px;
+    top: 300px;
+}
+
+.robots-achievement-image {
+    position: absolute;
+    left: 210px;
+    top: 450px;
+}
+
+.pink-circle {
+    position: absolute;
+    left: 487px;
+    top: 65px;
+}
+
+.pink-square {
+    position: absolute;
+    left: 470px;
+    top: 500px;
+}
+
+.pink-cross {
+    position: absolute;
+    left: 80px;
+    top: 250px;
+}
+
+.info-circle {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+}
+
+.to-right {
+    position: absolute;
+    right: 137px;
+    bottom: 20px;
+}
+
+/* Streamer sectionidagi style codelari */
+
+.streamer-video {
+    width: 555px;
+    height: 333px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/* Rating sectionidagi style codelari */
+
+.rating-image-wrapper {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.rating-img {
+    object-fit: contain;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: 4;
+}
+
+.rating-pink-square {
+    position: absolute;
+    top: -80px;
+    left: -50px;
+}
+
+.rating-dots {
+    position: absolute;
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    top: 40px;
+    left: -50px;
+}
+
+.rating-cross {
+    position: absolute;
+    left: -40px;
+    top: 250px;
+}
+
+.rating-controller {
+    position: absolute;
+    bottom: 230px;
+    left: 40px;
+}
+
+.rating-checkbox {
+    margin-block: 30px;
+}
